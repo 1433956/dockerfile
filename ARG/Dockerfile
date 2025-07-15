@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:${version}
+FROM almalinux:${version:-9}
 ENV course="devops"\
     duration="120 hours"
 ARG trainer="siva"
